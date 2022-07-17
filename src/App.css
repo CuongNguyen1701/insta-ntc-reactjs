@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+    font-size: 2.8em;
+    padding: 10px 0;
+    font-weight: 800;
   }
+  h5 {
+    margin: 0%;
+  }
+  p {
+    margin-top: 0%;
+
+  }
+.banner {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 2.5%;
+    background: #ffffff;
+    color: black;
+    column-count: 3;
+  }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fafafa;
+    
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#logo{
+  position: relative;
+  left: 45%;
+  max-width: 25%;
+  height: auto;
+}
+#search{
+  position: relative;
+  left: 17.5%;
+  top: 10%;
+}
+#search input[type=text]  {
+  height: 32.5px;
+  width: 260px;
+  border: none;
+  padding-left: 5px;
+  margin-bottom: 5%;
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+#comment{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#comment input[type=text]{
+  height: 25px;
+  width: 375px;
+  padding-left: 5px;
+  margin-bottom: 5%;;
+  border-radius: 4px;
+}
+#sendButton{
+  color: #0296F6;
+  text-align: right ; 
+  position: relative; 
+  left: 2%;
+
+}
+input:focus{
+  outline:none;
+}
+.option{
+  position: relative;
+  top: 20%;
+  padding-right: 5%;
+  max-width: 5%;
+  height: auto;
+}
+.user{
+  display: flex;
+  min-width: 200%;
+
+  margin: 3%;
+}
+.switch{
+  color: #0296F6;
+  text-align: right;
+  position: relative;
+  left: 25%;
+}
+.avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+   }
+.post{
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 2.5%;
+  overflow: hidden;
+}
+.comment_section{
+  margin: 3%;
+}
+.username{
+  margin-top: 1%;
+
+}
+.name{
+  color:#989898
 }
 
-.App-link {
-  color: #61dafb;
+.post_img{
+    max-width: 500px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: top;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#accounts{
+  margin-inline: 5%;
+  margin-top: 2.5%;
 }
